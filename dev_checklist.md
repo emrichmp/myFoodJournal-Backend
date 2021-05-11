@@ -1,5 +1,5 @@
 # To-do List
-* Finish backend
+* Finish back-end
 
 # Requirements
 

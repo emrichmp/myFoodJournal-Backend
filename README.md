@@ -1,6 +1,6 @@
 # README
 
-* Add description hear
+* Add description here
 
 * deployed url here
 
