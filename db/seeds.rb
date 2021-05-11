@@ -7,3 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 u = User.create(email: 'emrichmp@gmail.com', password: '1234')
+j = Journal.create(dailyp: 200, dailyf: 50, dailyc: 300, user_id: u.id)
