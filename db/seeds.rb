@@ -6,5 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-u = User.create(email: 'emrichmp@gmail.com', password: '1234')
+u = User.create(email: 'emrichmp@gmail.com', password: '1234', weight: 200)
 j = Journal.create(dailyp: 200, dailyf: 50, dailyc: 300, user_id: u.id)
+g = Goal.create(calories: 3000, goalweight: 180, user_id: u.id)
