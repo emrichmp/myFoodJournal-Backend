@@ -1,6 +1,8 @@
 # To-do List
-* Make food item model
 * Finish back-end
+    * See If I need to update fooditems associations
+    * Add more seed data once association is finished
+    * serializers for data
 
 # Requirements
 
