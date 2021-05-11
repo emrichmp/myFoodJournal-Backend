@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dailyp: 1
+  dailyf: 1
+  dailyc: 1
+
+two:
+  dailyp: 1
+  dailyf: 1
+  dailyc: 1
