@@ -1,4 +1,5 @@
 # To-do List
+* Make food item model
 * Finish back-end
 
 # Requirements
