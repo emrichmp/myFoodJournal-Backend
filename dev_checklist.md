@@ -23,7 +23,7 @@
         * Meal - belongs_to Journal, has_many Foods
             * Name (brekkie, lunch, dinner, snack, etc...)
 
-    * Food - belongs_to many meals
+    * Food - has_many meals that is belongs_to
 
 
 # Notes
