@@ -20,7 +20,7 @@
     * Journal - belongs_to User, has_many Meals
         * Date
     
-        * Meal - has_many Foods
+        * Meal - belongs_to Journal, has_many Foods
             * Name (brekkie, lunch, dinner, snack, etc...)
 
     * Food - belongs_to many meals
