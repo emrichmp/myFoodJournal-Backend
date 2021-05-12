@@ -1,8 +1,10 @@
 # To-do List
 * Finish back-end
-    * See If I need to update fooditems associations
-    * Add more seed data once association is finished
-    * serializers for data
+    * Food association w/ join model mealfoods
+    * Add seed data
+    * Create routes
+    * Controller
+    * Serialize data
 
 # Model attrs
     * User - has_one Goal, has_many Journals
@@ -20,10 +22,10 @@
     * Journal - belongs_to User, has_many Meals
         * Date
     
-        * Meal - belongs_to Journal, has_many Foods
+        * Meal - belongs_to Journal, has_many Foods through mealfoods
             * Name (brekkie, lunch, dinner, snack, etc...)
 
-    * Food - has_many meals that is belongs_to
+    * Food - has_many meals through mealfoods
         * name
         * calories
         * protein
