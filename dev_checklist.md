@@ -24,6 +24,11 @@
             * Name (brekkie, lunch, dinner, snack, etc...)
 
     * Food - has_many meals that is belongs_to
+        * calories
+        * protein
+        * fat
+        * carb
+        * servinginoz
 
 
 # Notes

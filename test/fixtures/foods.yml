@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  calories: 1
+  protein: 1
+  fat: 1
+  carb: 1
+  servinginoz: 1.5
+
+two:
+  calories: 1
+  protein: 1
+  fat: 1
+  carb: 1
+  servinginoz: 1.5
