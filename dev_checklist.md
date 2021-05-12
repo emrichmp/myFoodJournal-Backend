@@ -1,7 +1,7 @@
 # To-do List
 * Finish back-end
     [X] Food association w/ join model mealfoods
-    * Add seed data
+    [X] Add seed data
     * Create routes
     * Controller
     * Serialize data
