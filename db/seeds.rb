@@ -12,3 +12,4 @@ g = Goal.create(calories: 3000, protein: 200, fats: 80, carbs: 300, goalweight: 
 m = Meal.create(name: 'Breakfast', journal_id: j.id)
 m2 = Meal.create(name: 'Lunch', journal_id: j.id)
 f = Food.create(name: 'Protein', calories: 10, protein: 1, fat: 0, carb: 0, servinginoz: 1)
+#join = Mealfood.create(food_id: f.id, meal_id: m.id)
