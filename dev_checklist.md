@@ -5,7 +5,7 @@
     * serializers for data
 
 # Model attrs
-    * User - has_one Goal
+    * User - has_one Goal, has_many Journals
         * email
         * password
         * weight
@@ -17,11 +17,17 @@
             * carbs
             * goalweight
 
-        * Journal
-            
+    * Journal - belongs_to User, has_many Meals
+        * Date
+    
+        * Meal - has_many Foods
+            * Name (brekkie, lunch, dinner, snack, etc...)
 
-    * food_item
+    * Food - belongs_to many meals
 
+
+# Notes
+* Date format: "2021-05-12"
 
 # Requirements
 
