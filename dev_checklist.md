@@ -24,6 +24,7 @@
             * Name (brekkie, lunch, dinner, snack, etc...)
 
     * Food - has_many meals that is belongs_to
+        * name
         * calories
         * protein
         * fat
