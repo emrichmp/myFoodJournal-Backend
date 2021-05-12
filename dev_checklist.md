@@ -4,6 +4,25 @@
     * Add more seed data once association is finished
     * serializers for data
 
+# Model attrs
+    * User - has_one Goal
+        * email
+        * password
+        * weight
+
+        * Goal - belongs_to User
+            * calories
+            * protein
+            * fats
+            * carbs
+            * goalweight
+
+        * Journal
+            
+
+    * food_item
+
+
 # Requirements
 
 [ ] - The code should be written in ES6 as much as possible
