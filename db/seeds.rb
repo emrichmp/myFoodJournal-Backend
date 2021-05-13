@@ -8,6 +8,7 @@
 
 u = User.create(email: 'emrichmp@gmail.com', password: '1234', weight: 200)
 j = Journal.create(date: "2021-05-12", user_id: u.id)
+j2 = Journal.create(date: "2021-05-13", user_id: u.id)
 g = Goal.create(calories: 3000, protein: 200, fats: 80, carbs: 300, goalweight: 180, user_id: u.id)
 m = Meal.create(name: 'Breakfast', journal_id: j.id)
 m2 = Meal.create(name: 'Lunch', journal_id: j.id)
