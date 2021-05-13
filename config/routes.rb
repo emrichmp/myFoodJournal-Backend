@@ -10,7 +10,7 @@ Rails.application.routes.draw do
       resources :journals, only: [:index, :update, :create]
       #controller done - index
       resources :meals
-      #controller done - index
+      #controller done - index, create
       resources :foods
     end
   end
