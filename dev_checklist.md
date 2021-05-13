@@ -4,7 +4,8 @@
     [X] Add seed data
     [X] Create routes
     [X] Create Controller
-    * Make Serializers
+    [X] Make Serializers
+    [] Add more controller actions
 
 # Model attrs
     * User - has_one Goal, has_many Journals
