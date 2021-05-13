@@ -3,8 +3,8 @@
     [X] Food association w/ join model mealfoods
     [X] Add seed data
     [X] Create routes
-    * Controller
-    * Serialize data
+    [X] Create Controller
+    * Make Serializers
 
 # Model attrs
     * User - has_one Goal, has_many Journals
