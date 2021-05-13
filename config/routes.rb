@@ -3,9 +3,12 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :users, only: [:create]
+      #controller done - index
       resources :goals, only: [:index, :create]
+      #controller done - index
       resources :journals, only: [:index, :update, :create]
       resources :meals
+      #controller done - index
       resources :foods
     end
   end
