@@ -4,4 +4,8 @@ class Api::V1::JournalsController < ApplicationController
         #render json: journals
         render json: JournalSerializer.new(journals)
     end
+
+    # def show
+
+    # end
 end
