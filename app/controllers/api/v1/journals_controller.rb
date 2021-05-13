@@ -5,7 +5,9 @@ class Api::V1::JournalsController < ApplicationController
         render json: JournalSerializer.new(journals)
     end
 
-    # def show
-
-    # end
+    def show
+        journal = Journal.find_by_id(params[:id])
+        #render json: journal
+        render json: JournalSerializer.new(journal)
+    end
 end
