@@ -7,8 +7,13 @@ class Api::V1::FoodsController < ApplicationController
 
     def create
         food = Food.new(food_params)
-        #join = FoodMeal.create(meal_id, food_id)
-        render json: FoodSerializer.new(food)
+        if journal.save
+          #join = FoodMeal.create(meal_id, food_id)
+          render json: FoodSerializer.new(food)
+        else
+          #fix this
+          render json: "error"
+        end
     end
 
 

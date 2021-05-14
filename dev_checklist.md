@@ -6,6 +6,9 @@
     [X] Create Controller
     [X] Make Serializers
     [] Add more controller actions
+        - Create Food -- DONE
+        - Create Journal
+        - Create Meal
 
 # Model attrs
     * User - has_one Goal, has_many Journals
