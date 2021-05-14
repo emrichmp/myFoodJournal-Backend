@@ -7,8 +7,8 @@
     [X] Make Serializers
     [] Add more controller actions
         - Create Food -- DONE
-        - Create Journal
-        - Create Meal
+        - Create Journal -- DONE
+        - Create Meal -- 
 
 # Model attrs
     * User - has_one Goal, has_many Journals

@@ -6,9 +6,9 @@ Rails.application.routes.draw do
       resources :users#, only: [:create]
       #controller done - index
       resources :goals, only: [:index, :create]
-      #controller done - index
+      #controller done - index, create, show
       resources :journals, only: [:index, :update, :create, :show]
-      #controller done - index
+      #controller done - index, create
       resources :meals
       #controller done - index, create
       resources :foods
