@@ -5,10 +5,10 @@
     [X] Create routes
     [X] Create Controller
     [X] Make Serializers
-    [] Add more controller actions
+    [X] Add more controller actions
         - Create Food -- DONE
         - Create Journal -- DONE
-        - Create Meal -- 
+        - Create Meal -- Done
 
 # Model attrs
     * User - has_one Goal, has_many Journals
