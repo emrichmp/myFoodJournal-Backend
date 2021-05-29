@@ -5,7 +5,7 @@ Rails.application.routes.draw do
       #controller done - index (will be removed later)
       resources :users#, only: [:create]
       #controller done - index
-      resources :goals, only: [:index, :update, :create]
+      resources :goals, only: [:index, :show, :update, :create]
       #controller done - index, create, show
       resources :journals, only: [:index, :update, :create, :show]
       #controller done - index, create
