@@ -1,4 +1,4 @@
 class JournalSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :date, :meals, :foods#, :food_meals
+  attributes :date, :calories_consumed, :meals, :foods
 end
