@@ -15,4 +15,15 @@ class Api::V1::GoalsController < ApplicationController
     def create
         #goal = Goal.new(goal_params)
     end
+
+    def update
+        @goal = Goal.find_by(id: params[:id])
+        @goal.update(goal_params)
+    end
+
+    private
+
+  def goal_params
+    params.require(:goal).permit(:calories, :protein, :fats, :carbs, :goalweight, :id)
+  end
 end
