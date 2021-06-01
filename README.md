@@ -1,5 +1,5 @@
 # myFoodJournal!
-Frontend Repo: https://github.com/emrichmp/myFoodJournal-Backend
+Frontend Repo: https://github.com/emrichmp/myFoodJournal-Frontend
 
 ### Description
 
