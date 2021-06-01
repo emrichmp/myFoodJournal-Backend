@@ -4,10 +4,13 @@ Frontend Repo: https://github.com/emrichmp/myFoodJournal-Frontend
 ### Description
 
 ### installation
-installation instructions
+If you'd like to experiment with this app or run it locally fork and clone this repo.
+1. In console run ```bundle install``` to install all dependencies.
+2. Then run ```rails s``` to get the server started and navigate to "http://localhost:3000/"
+3. If you are using this to run with the front-end, go to that repo (linked at the top) and follow the installation instructions there to get that up and running.
 
-### Project Explained
-Explain how project works
+### Short Project Explained
+This Ruby on Rails API/Backend was created using 'rails' and 'fast_jsonapi' gems to quickly establish an API. It follows the MVC conventions and uses Serializers to sort the data. This Project also recruits the use of 'rack-cors' for fetch calls from the front-end, 'bcrypt' for ActiveRecord passwords, postgres for the database and 'puma' for the server. The backend handles all the data relationships and creation.
 
 ### Contact Info
 If you have any questions about this app or want to contact me in general, please email me at emrichmp@gmail.com
