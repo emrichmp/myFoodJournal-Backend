@@ -8,6 +8,7 @@
 
 u = User.create(email: 'emrichmp@gmail.com', password: '1234', weight: 100)
 u2 = User.create(email: 'test@gmail.com', password: '1234', weight: 90)
+u3 = User.create(email: 'someemail@gmail.com', password:'1234', weight: 66)
 j = Journal.create(date: "2021-05-12", user_id: u.id, calories_consumed: 2421)
 j2 = Journal.create(date: "2021-05-13", user_id: u.id, calories_consumed: 1851)
 g = Goal.create(calories: 3000, protein: 200, fats: 80, carbs: 300, goalweight: 80, user_id: u.id)
