@@ -1,5 +1,6 @@
 # myFoodJournal!
 Frontend Repo: https://github.com/emrichmp/myFoodJournal-Frontend
+*** Please check out the front-end repo, I go more in-depth into this project on the front-end and I did not want to just copy and paste the same README on both ends (lol) ***
 
 ### Description
 myFoodJournal brings all your food tracking needs! myFoodJournal lets a user to add food to their meals in their diary. They also may add their goals and macros so they can hit those goals and track along with it. If a user doesn't know where to start they can also use the included TDEE calculator to find an estimated caloric intake and a recommended macro breakdown! *This is just the back-end so this will handle all the data manipulation but the front end is were the user gets this true experience! So go check out the front end!*
