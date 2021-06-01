@@ -1,5 +1,6 @@
 # myFoodJournal!
 Frontend Repo: https://github.com/emrichmp/myFoodJournal-Frontend
+
 *** Please check out the front-end repo, I go more in-depth into this project on the front-end and I did not want to just copy and paste the same README on both ends (lol) ***
 
 ### Description
