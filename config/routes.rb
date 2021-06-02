@@ -12,6 +12,7 @@ Rails.application.routes.draw do
       resources :meals
       #controller done - index, create
       resources :foods
+      resources :sessions, only: [:create]
     end
   end
 end
