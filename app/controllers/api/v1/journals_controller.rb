@@ -23,6 +23,6 @@ class Api::V1::JournalsController < ApplicationController
     private
 
   def journal_params
-    params.require(:journal).permit(:date, :user_id)
+    params.require(:journal).permit(:date, :user_id, :calories_consumed)
   end
 end
