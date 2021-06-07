@@ -1,4 +1,4 @@
-class MealSerializer
-  include FastJsonapi::ObjectSerializer
-  attributes :name, :foods, :journal
-end
+# class MealSerializer
+#   include FastJsonapi::ObjectSerializer
+#   attributes :name, :foods, :journal
+# end
