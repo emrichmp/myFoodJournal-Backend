@@ -21,6 +21,12 @@ class Api::V1::FoodsController < ApplicationController
         end
     end
 
+    def destroy
+      food = Food.find_by_id(params[:id])
+      food.destroy()
+      render json: "successfully deleted"
+    end
+
 
     private
 
