@@ -5,6 +5,11 @@ class Api::V1::FoodsController < ApplicationController
         render json: FoodSerializer.new(foods)
     end
 
+    def show
+      food = Food.find_by_id(params[:id])
+      render json: FoodSerializer.new(food)
+  end
+
     def create
         food = Food.new(food_params)
         if food.save
