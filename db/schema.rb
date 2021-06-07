@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_03_143535) do
+ActiveRecord::Schema.define(version: 2021_06_07_162919) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2021_06_03_143535) do
     t.float "servinginoz"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "meal_id"
+    t.integer "journal_id"
   end
 
   create_table "goals", force: :cascade do |t|
@@ -44,13 +44,6 @@ ActiveRecord::Schema.define(version: 2021_06_03_143535) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "calories_consumed"
-  end
-
-  create_table "meals", force: :cascade do |t|
-    t.string "name"
-    t.integer "journal_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "users", force: :cascade do |t|
