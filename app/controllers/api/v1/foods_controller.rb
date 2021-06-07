@@ -20,6 +20,6 @@ class Api::V1::FoodsController < ApplicationController
     private
 
   def food_params
-    params.require(:food).permit(:name, :calories, :protein, :fat, :carb, :servinginoz)
+    params.require(:food).permit(:name, :calories, :protein, :fat, :carb, :servinginoz, :journal_id)
   end
 end
