@@ -7,7 +7,7 @@ class Api::V1::FoodsController < ApplicationController
 
     def create
         food = Food.new(food_params)
-        if journal.save
+        if food.save
           #join = FoodMeal.create(meal_id, food_id)
           render json: FoodSerializer.new(food)
         else
