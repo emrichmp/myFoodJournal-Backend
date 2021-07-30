@@ -84,3 +84,4 @@ production:
   database: myFoodJournal_Backend_production
   username: myFoodJournal_Backend
   password: <%= ENV['MYFOODJOURNAL_BACKEND_DATABASE_PASSWORD'] %>
+  adapters: 'postgresql'
