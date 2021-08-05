@@ -46,9 +46,6 @@ ActiveRecord::Schema.define(version: 2021_08_05_234559) do
     t.integer "calories_consumed"
   end
 
-  create_table "mealfoods", force: :cascade do |t|
-  end
-
   create_table "users", force: :cascade do |t|
     t.string "email"
     t.string "password_digest"
